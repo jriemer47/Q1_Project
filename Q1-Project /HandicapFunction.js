@@ -122,9 +122,6 @@ function HDCPIndex (scores) {
 
   handicapForm.addEventListener("submit", function() {
     console.log("do we get here");
-    // for (let i = 1; i < 4; i++) {
-    //   console.log(formControl[i].value);
-    // }
     scores.score.push(formControl[1].value)
     scores.rating.push(formControl[2].value)
     scores.slope.push(formControl[3].value)
@@ -135,8 +132,9 @@ function HDCPIndex (scores) {
     console.log("these are the scores", scores);
   })
 
-  function myFunction() {
-
+  document.addEventListener('submit', function myFunction(event) {
+    event.preventDefault()
+    console.log("HELOOOOO!!!!")
     // scores.score.push(formControl[1].value)
     // scores.rating.push(formControl[2].value)
     // scores.slope.push(formControl[3].value)
@@ -144,6 +142,6 @@ function HDCPIndex (scores) {
     console.log('user = ', document.getElementById("usr"));
     // console.log('user1 = ', document.getElementById("usr1"));
     // console.log(document.getElementById("usr1").value);
-    document.getElementById("usr1").value=HDCPIndex(scores)
+    document.getElementById("usr").value=HDCPIndex(scores)
 
-  }
+  })

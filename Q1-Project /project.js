@@ -21,16 +21,16 @@
   //
   // }
 
-function calculateArea() {
-
-var base = document.getElementsByName('width')[0].value;
-console.log(base);
-console.log("hi");
-var height = document.getElementsByName('height')[0].value;
-console.log(height);
-var out = (base) * (height);
-console.log(out);
-
-document.getElementsByName('output')[0].value= out;
-
-}
+// function calculateArea() {
+//
+// var base = document.getElementsByName('width')[0].value;
+// console.log(base);
+// console.log("hi");
+// var height = document.getElementsByName('height')[0].value;
+// console.log(height);
+// var out = (base) * (height);
+// console.log(out);
+//
+// document.getElementsByName('output')[0].value= out;
+//
+// }
