@@ -4,6 +4,7 @@
 
 .material-icons {
   padding-right: 10px;
+  color: green;
 }
 /* body { */
   /* background-image: url("http://getwallpapers.com/wallpaper/full/b/0/4/287963.jpg"); */
@@ -53,7 +54,9 @@
   color: red;
 }
 
+.fa-arrow-down {
+  color: green;
+}
 
 
-
-/* DEMO!!!!!! */
+/* TICKER!!!!!! */
