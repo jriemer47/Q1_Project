@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>HandiCapture</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0-beta.3/slate/bootstrap.min.css" integrity="sha384-0hg9nIBwdqzDMXB5NKI6aLmOMkt8sWpL8xY0q9J7eAS/UYXIqoZ/iXiRxQYe0znl" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+  </head>
+<body onload="myFunction()">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <i class="material-icons">golf_course</i>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Post New Score <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Track Your Progress</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle"data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Live Scores</button>
+            <div class="btn-group" role="group">
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="https://www.pgatour.com/leaderboard.html">PGA TOUR</a>
+                <a class="dropdown-item" href="https://www.pgatour.com/webcom/leaderboard.html">WEB.COM TOUR</a>
+                <a class="dropdown-item" href="https://www.pgatour.com/champions/leaderboard.html">PGA TOUR CHAMPIONS</a>
+                <a class="dropdown-item" href="https://www.pgatour.com/canada/en_us/leaderboard.html">MACKENZIE TOUR - CANADA</a>
+                <a class="dropdown-item" href="https://www.pgatour.com/la/en/leaderboard.html">PGA TOUR LATINOAMERICA</a>
+                <a class="dropdown-item" href="http://www.lpga.com/leaderboard">LPGA</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row-top">
+        <div class="col-12 text-center">
+          <img class="sand-ridge-pic" src="https://media.golfdigest.com/photos/55ada5b7add713143b44058f/master/pass/magazine-2013-11-maar01-undercover-pro-620.jpg" alt="golfcourse">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card border-success mb-3" style="max-width: 20rem; margin: auto;">
+        <div class="card-header">
+          <h2>Your Handicap Index</h2>
+        </div>
+        <div class="card-body">
+          <div class="form-group2">
+            <input type="text" class="form-control" id="usr1">
+          </div>
+        </div>
+      </div>
+      <div class="postScore">
+        <button type="submit" class="btn btn-primary" id="post"><a href="file:///Users/jriemer/Desktop/Q1-Project%20/index.html?#">Post Another Score</a></button>
+      </div>
+    </div>
+
+
+
+
+
+
+    <script src="./page2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
